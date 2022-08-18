@@ -230,7 +230,7 @@
         },
         "points": 30,
         "restrictions": {
-          "includes": {
+          "include": {
             "unit": ["Imperial Commandos"]
           }
         }
@@ -249,7 +249,7 @@
       }
     ]
   },
-  "Commands": {
+  "commands": {
     "Sith Empire": [
       {
         "name": "Oppressive Tactics",
