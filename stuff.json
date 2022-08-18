@@ -50,7 +50,11 @@
 					"Force": 2,
 					"Training": 1
 				},
-				"minis": 1,
+				"minis": [
+				{
+					"mesh": "http://cloud-3.steamusercontent.com/ugc/1007061823163250038/32C72D2D0F766BFD34626E6A8944954C50CC0D77/"
+					"diffuse": "http://cloud-3.steamusercontent.com/ugc/1007061823163250299/7A3E3550E4630C1BF03CF91847C63638AB684434/"
+					],
 				"Commands": [
 				{
 					"name": "Bring Cruelty",
@@ -211,7 +215,11 @@
       },
 	  {"name": "Tactical Shotgun",
 	  "image": "https://media.discordapp.net/attachments/467101264350806027/1009537407361749032/Shotgun.png",
-	  "mini": 1,
+	  "mini": {
+		  "mesh": "http://cloud-3.steamusercontent.com/ugc/1007062024260532062/6D98D9E28283E02F34B203849A11F420D1A1C99E/",
+		  "diffuse": "http://cloud-3.steamusercontent.com/ugc/1007062024260606126/9430D9F19B59E68648F5261C8162A66C253EDDC0/"
+		  ]
+	  },
 	  "points": 30,
 	  "restrictions": {
 		  "includes": {
@@ -228,8 +236,7 @@
 			"include": {
 				"faction:": ["Sith Empire"]
 			}
-		},
-		"mini": 1
+		}
 		}
 		]
 	},
