@@ -1,8 +1,8 @@
 {
-	"units": {
-		"Sith Empire": {
-			"Commander": [
-			{
+  "units": {
+    "Sith Empire": {
+      "Commander": [
+        {
           "name": "Darth Malgus",
           "title": "Prodigy of Battle",
           "image": "https://media.discordapp.net/attachments/467101264350806027/1009537397471596646/Darth_Malgus.png",
@@ -38,44 +38,47 @@
             }
           ]
         }
-			],
-			"Operative": [
-				"name": "Emperor's Wrath",
-				"image": "https://media.discordapp.net/attachments/467101264350806027/1009537398377554001/Emperors_Wrath.png",
-				"size": "small",
-				"type": "Trooper",
-				"points": 170,
-				"speed": 2,
-				"upgrades": {
-					"Force": 2,
-					"Training": 1
-				},
-				"minis": [
-				{
-					"mesh": "http://cloud-3.steamusercontent.com/ugc/1007061823163250038/32C72D2D0F766BFD34626E6A8944954C50CC0D77/"
-					"diffuse": "http://cloud-3.steamusercontent.com/ugc/1007061823163250299/7A3E3550E4630C1BF03CF91847C63638AB684434/"
-					],
-				"Commands": [
-				{
-					"name": "Bring Cruelty",
-					"image": "https://media.discordapp.net/attachments/467101264350806027/1009537376395214878/1pip1.png",
-					"pip": 1
-				},
-				{
-					"name": "Bring Rage",
-					"image": "https://media.discordapp.net/attachments/467101264350806027/1009537377133416508/2pip1.png",
-					"pip": 2
-				},
-				{
-					"name": "Bring Death",
-					"image": "https://media.discordapp.net/attachments/467101264350806027/1009537373840875540/3pip1.png",
-					"pip": 3
-				}
-				],
-				"required": ["Sith Juggernaut", "Sith Marauder"]
-			],
-			"Corps": [
-			{
+      ],
+      "Operative": [
+        {
+          "name": "Emperor's Wrath",
+          "image": "https://media.discordapp.net/attachments/467101264350806027/1009537398377554001/Emperors_Wrath.png",
+          "size": "small",
+          "type": "Trooper",
+          "points": 170,
+          "speed": 2,
+          "upgrades": {
+            "Force": 2,
+            "Training": 1
+          },
+          "minis": [
+            {
+              "mesh": "http://cloud-3.steamusercontent.com/ugc/1007061823163250038/32C72D2D0F766BFD34626E6A8944954C50CC0D77/",
+              "diffuse": "http://cloud-3.steamusercontent.com/ugc/1007061823163250299/7A3E3550E4630C1BF03CF91847C63638AB684434/"
+            }
+          ],
+          "Commands": [
+            {
+              "name": "Bring Cruelty",
+              "image": "https://media.discordapp.net/attachments/467101264350806027/1009537376395214878/1pip1.png",
+              "pip": 1
+            },
+            {
+              "name": "Bring Rage",
+              "image": "https://media.discordapp.net/attachments/467101264350806027/1009537377133416508/2pip1.png",
+              "pip": 2
+            },
+            {
+              "name": "Bring Death",
+              "image": "https://media.discordapp.net/attachments/467101264350806027/1009537373840875540/3pip1.png",
+              "pip": 3
+            }
+          ],
+          "required": ["Sith Juggernaut", "Sith Marauder"]
+        }
+      ],
+      "Corps": [
+        {
           "name": "Sith Empire Troopers",
           "image": "https://media.discordapp.net/attachments/467101264350806027/1009537407676325928/SithTroopers.png",
           "size": "small",
@@ -107,9 +110,9 @@
             }
           ]
         }
-			],
-			"Special Forces": [
-			{
+      ],
+      "Special Forces": [
+        {
           "name": "Sith Acolytes",
           "image": "https://media.discordapp.net/attachments/467101264350806027/1009537193909440512/Acolytes.png",
           "size": "small",
@@ -122,8 +125,8 @@
             "Force": 1
           },
           "minis": [
-		  {
-			  "mesh": "http://cloud-3.steamusercontent.com/ugc/1012691837448680455/252DCD7E06B5083BBE6CABCA4F8349D6DCE46498/",
+            {
+              "mesh": "http://cloud-3.steamusercontent.com/ugc/1012691837448680455/252DCD7E06B5083BBE6CABCA4F8349D6DCE46498/",
               "diffuse": "http://cloud-3.steamusercontent.com/ugc/1007061608885695776/F5A3AA78554B8F3CB86314E552D94D65C0080F0C/"
             },
             {
@@ -133,8 +136,10 @@
             {
               "mesh": "http://cloud-3.steamusercontent.com/ugc/1007061608885733918/43DD4CBAEAD756429F47BAF24133A3D97CEA9DA6/",
               "diffuse": "http://cloud-3.steamusercontent.com/ugc/1007061608885695776/F5A3AA78554B8F3CB86314E552D94D65C0080F0C/"
-            },
-			{
+            }
+          ]
+        },
+        {
           "name": "Imperial Commandos",
           "image": "https://media.discordapp.net/attachments/467101264350806027/1009537375132713072/Commandos.png",
           "size": "small",
@@ -167,12 +172,13 @@
             }
           ]
         }
-			]
-		}
-	},
-	"Upgrades": {
-		"Personnel": [
-		{"name": "Sith Warrior",
+      ]
+    }
+  },
+  "Upgrades": {
+    "Personnel": [
+      {
+        "name": "Sith Warrior",
         "image": "https://media.discordapp.net/attachments/467101264350806027/1009537194840559657/Warrior.png",
         "mini": {
           "mesh": "http://cloud-3.steamusercontent.com/ugc/1007061608885796271/427E4FBA584A22712C84414761D3EEBB1AE714E7/",
@@ -183,24 +189,26 @@
           "include": {
             "unit": ["Sith Acolytes"]
           }
-		}
-		},
-		{"name": "Sith Empire Trooper",
-			"image": "https://media.discordapp.net/attachments/467101264350806027/1009537374709092382/AdditionalSithTrooper.png",
-			"mini": {
-				"mesh": "http://cloud-3.steamusercontent.com/ugc/1007061608878992636/D833E26E44A7763FAEFBE2430390376F9160E931/",
-				"diffuse": "http://cloud-3.steamusercontent.com/ugc/1007061608878877171/C209E7E6493A8465F8FD60DE6566AA6BA2C745ED/"
-			},
-			"points": 11,
-			"restrictions": {
-			"include": {
-				"unit": ["Sith Empire Troopers"]
-			}
+        }
+      },
+      {
+        "name": "Sith Empire Trooper",
+        "image": "https://media.discordapp.net/attachments/467101264350806027/1009537374709092382/AdditionalSithTrooper.png",
+        "mini": {
+          "mesh": "http://cloud-3.steamusercontent.com/ugc/1007061608878992636/D833E26E44A7763FAEFBE2430390376F9160E931/",
+          "diffuse": "http://cloud-3.steamusercontent.com/ugc/1007061608878877171/C209E7E6493A8465F8FD60DE6566AA6BA2C745ED/"
+        },
+        "points": 11,
+        "restrictions": {
+          "include": {
+            "unit": ["Sith Empire Troopers"]
+          }
         }
       }
-		],
-		"Heavy Weapon": [
-		{"name": "DLA-13 Trooper",
+    ],
+    "Heavy Weapon": [
+      {
+        "name": "DLA-13 Trooper",
         "image": "https://media.discordapp.net/attachments/467101264350806027/1009537397891018903/DLA-13.png",
         "mini": {
           "mesh": "http://cloud-3.steamusercontent.com/ugc/1007061608879755028/53718ACF3D389983D1CF2630D761DF90121CDA5A/",
@@ -213,34 +221,35 @@
           }
         }
       },
-	  {"name": "Tactical Shotgun",
-	  "image": "https://media.discordapp.net/attachments/467101264350806027/1009537407361749032/Shotgun.png",
-	  "mini": {
-		  "mesh": "http://cloud-3.steamusercontent.com/ugc/1007062024260532062/6D98D9E28283E02F34B203849A11F420D1A1C99E/",
-		  "diffuse": "http://cloud-3.steamusercontent.com/ugc/1007062024260606126/9430D9F19B59E68648F5261C8162A66C253EDDC0/"
-		  ]
-	  },
-	  "points": 30,
-	  "restrictions": {
-		  "includes": {
-			  "unit": ["Imperial Commandos"]
-		  }
-	  }
-	  }
-		],
-		"Training": [
-		{"name": "Sith Juggernaut",
-		"image": "https://media.discordapp.net/attachments/467101264350806027/1009939390497300510/unknown.png",
-		"points": 10,
-		"restrictions": {
-			"include": {
-				"faction:": ["Sith Empire"]
-			}
-		}
-		}
-		]
-	},
-	"Commands": {
+      {
+        "name": "Tactical Shotgun",
+        "image": "https://media.discordapp.net/attachments/467101264350806027/1009537407361749032/Shotgun.png",
+        "mini": {
+          "mesh": "http://cloud-3.steamusercontent.com/ugc/1007062024260532062/6D98D9E28283E02F34B203849A11F420D1A1C99E/",
+          "diffuse": "http://cloud-3.steamusercontent.com/ugc/1007062024260606126/9430D9F19B59E68648F5261C8162A66C253EDDC0/"
+        },
+        "points": 30,
+        "restrictions": {
+          "includes": {
+            "unit": ["Imperial Commandos"]
+          }
+        }
+      }
+    ],
+    "Training": [
+      {
+        "name": "Sith Juggernaut",
+        "image": "https://media.discordapp.net/attachments/467101264350806027/1009939390497300510/unknown.png",
+        "points": 10,
+        "restrictions": {
+          "include": {
+            "faction:": ["Sith Empire"]
+          }
+        }
+      }
+    ]
+  },
+  "Commands": {
     "Sith Empire": [
       {
         "name": "Oppressive Tactics",
