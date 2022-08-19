@@ -73,7 +73,8 @@
               "image": "https://media.discordapp.net/attachments/467101264350806027/1009537373840875540/3pip1.png",
               "pip": 3
             }
-          ]
+          ],
+          "required": ["Sith Juggernaut"]
         }
       ],
       "Corps": [
