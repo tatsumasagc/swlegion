@@ -239,7 +239,12 @@
       {
         "name": "Sith Juggernaut",
         "image": "https://media.discordapp.net/attachments/467101264350806027/1009939390497300510/unknown.png",
-        "points": 10
+        "points": 10,
+        "restrictions": {
+          "include": {
+            "faction": ["Sith Empire"]
+          }
+        }
       }
     ]
   },
