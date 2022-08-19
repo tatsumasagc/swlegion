@@ -57,7 +57,7 @@
               "diffuse": "http://cloud-3.steamusercontent.com/ugc/1007061823163250299/7A3E3550E4630C1BF03CF91847C63638AB684434/"
             }
           ],
-          "Commands": [
+          "commands": [
             {
               "name": "Bring Cruelty",
               "image": "https://media.discordapp.net/attachments/467101264350806027/1009537376395214878/1pip1.png",
