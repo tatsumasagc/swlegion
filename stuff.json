@@ -244,12 +244,12 @@
           "include": {
             "faction": ["Sith Empire"]
           }
-        },
-        {
-         "name": "Up Close and Personal",
-         "image": "https://cdn.discordapp.com/attachments/467101264350806027/1009990533126565938/unknown.png",
-         "points": 5
-      }
+        }
+      },
+      {
+        "name": "Up Close and Personal",
+        "image": "https://cdn.discordapp.com/attachments/467101264350806027/1009990533126565938/unknown.png",
+        "points": 5
       }
     ]
   },
