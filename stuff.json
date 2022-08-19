@@ -57,7 +57,7 @@
               "diffuse": "http://cloud-3.steamusercontent.com/ugc/1007061823163250299/7A3E3550E4630C1BF03CF91847C63638AB684434/"
             }
           ],
-          "Commands": [
+          "commands": [
             {
               "name": "Bring Cruelty",
               "image": "https://media.discordapp.net/attachments/467101264350806027/1009537376395214878/1pip1.png",
@@ -73,8 +73,7 @@
               "image": "https://media.discordapp.net/attachments/467101264350806027/1009537373840875540/3pip1.png",
               "pip": 3
             }
-          ],
-          "required": ["Sith Juggernaut", "Sith Marauder"]
+          ]
         }
       ],
       "Corps": [
@@ -175,7 +174,7 @@
       ]
     }
   },
-  "Upgrades": {
+  "upgrades": {
     "Personnel": [
       {
         "name": "Sith Warrior",
@@ -230,7 +229,7 @@
         },
         "points": 30,
         "restrictions": {
-          "includes": {
+          "include": {
             "unit": ["Imperial Commandos"]
           }
         }
@@ -243,13 +242,18 @@
         "points": 10,
         "restrictions": {
           "include": {
-            "faction:": ["Sith Empire"]
+            "faction": ["Sith Empire"]
           }
         }
+      },
+      {
+        "name": "Up Close and Personal",
+        "image": "https://cdn.discordapp.com/attachments/467101264350806027/1009990533126565938/unknown.png",
+        "points": 5
       }
     ]
   },
-  "Commands": {
+  "commands": {
     "Sith Empire": [
       {
         "name": "Oppressive Tactics",
