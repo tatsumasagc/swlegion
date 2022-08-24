@@ -2839,6 +2839,28 @@
           ]
         }
       ]
+    },
+    {
+      "Old Republic": {
+        "Commander":{
+
+        },
+        "Corps": {
+
+        },
+        "Heavy": {
+
+        },
+        "Operative": {
+
+        },
+        "Special Forces": {
+
+        },
+        "Support": {
+          
+        }
+      }
     }
   },
   "upgrades": {
